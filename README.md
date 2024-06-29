@@ -2,6 +2,7 @@
 
 ## Features:
 Compatible with other mods
+
 Removes the damage system for the following components:
 - Tracks
 - Optics (primary/thermals/IR/NV)
