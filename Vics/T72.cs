@@ -53,7 +53,7 @@ namespace IndestructibleComponents
 
                 GameObject gunBarrel = lftGun._lateFollowers[0].transform.Find("ARMOR/Cannon/").gameObject;
                 GameObject gunAssembly = lftGun._lateFollowers[0].transform.Find("ARMOR/Gun assembly/").gameObject;
-                GameObject gunBreach = lftGun._lateFollowers[0].transform.Find("AAR/Breech/").gameObject;
+                GameObject gunBreech = lftGun._lateFollowers[0].transform.Find("AAR/Breech/").gameObject;
 
                 GameObject autoLoader = lftTurret._lateFollowers[0].transform.Find("AAR/Autoloader Arm").gameObject;
 
@@ -79,7 +79,7 @@ namespace IndestructibleComponents
                 {
                     Component.Destroy(gunBarrel.GetComponent<GHPC.Equipment.DestructibleComponent>());
                     Component.Destroy(gunAssembly.GetComponent<GHPC.Equipment.DestructibleComponent>());
-                    Component.Destroy(gunBreach.GetComponent<GHPC.Equipment.DestructibleComponent>());
+                    Component.Destroy(gunBreech.GetComponent<GHPC.Equipment.DestructibleComponent>());
                     Component.Destroy(autoLoader.GetComponent<GHPC.Equipment.DestructibleComponent>());
                 }
 
@@ -137,7 +137,7 @@ namespace IndestructibleComponents
                 {
                     gunBarrel = lftGun._lateFollowers[0].transform.Find("ARMOR/Cannon/").gameObject;
                     gunAssembly = lftGun._lateFollowers[0].transform.Find("ARMOR/Gun assembly/").gameObject;
-                    gunBreach = lftGun._lateFollowers[0].transform.Find("AAR/Breech/").gameObject;
+                    gunBreech = lftGun._lateFollowers[0].transform.Find("AAR/Breech/").gameObject;
                     MelonLogger.Msg("T-72M[0] Gun Loaded");
                 }
                 
@@ -145,7 +145,7 @@ namespace IndestructibleComponents
                 {
                     gunBarrel = lftGun._lateFollowers[2].transform.Find("ARMOR/Cannon/").gameObject;
                     gunAssembly = lftGun._lateFollowers[2].transform.Find("ARMOR/Gun assembly/").gameObject;
-                    gunBreach = lftGun._lateFollowers[2].transform.Find("AAR/Breech/").gameObject;
+                    gunBreech = lftGun._lateFollowers[2].transform.Find("AAR/Breech/").gameObject;
                     MelonLogger.Msg("T-72M[2] Gun Loaded");
                 }
 
@@ -177,7 +177,7 @@ namespace IndestructibleComponents
                 {
                     Component.Destroy(gunBarrel.GetComponent<GHPC.Equipment.DestructibleComponent>());
                     Component.Destroy(gunAssembly.GetComponent<GHPC.Equipment.DestructibleComponent>());
-                    Component.Destroy(gunBreach.GetComponent<GHPC.Equipment.DestructibleComponent>());
+                    Component.Destroy(gunBreech.GetComponent<GHPC.Equipment.DestructibleComponent>());
                     Component.Destroy(autoLoader.GetComponent<GHPC.Equipment.DestructibleComponent>());
                 }
 

@@ -56,7 +56,7 @@ namespace IndestructibleComponents
 
                 GameObject gunBarrel = lftGun._lateFollowers[0].transform.Find("AAR/Gun_2A46M-1/").gameObject;
                 GameObject gunCoax = lftGun._lateFollowers[0].transform.Find("AAR/MG_Coax_PKT_7.62mm/").gameObject;
-                GameObject gunBreach = lftGun._lateFollowers[0].transform.Find("AAR/Gun_Breach_Gun_Breach_BitsThatRecoil/").gameObject;
+                GameObject gunBreech = lftGun._lateFollowers[0].transform.Find("AAR/Gun_Breech_Gun_Breech_BitsThatRecoil/").gameObject;
 
                 GameObject autoLoader1 = lftTurret._lateFollowers[0].transform.Find("AAR/Autoloader_6ETs10M/").gameObject;
                 GameObject autoLoader2 = lftTurret._lateFollowers[0].transform.Find("AAR/Carousel_ElectricDrive(Can be manually cranked if failed)/").gameObject;
@@ -91,7 +91,7 @@ namespace IndestructibleComponents
                 {
                     Component.Destroy(gunBarrel.GetComponent<GHPC.Equipment.DestructibleComponent>());
                     Component.Destroy(gunCoax.GetComponent<GHPC.Equipment.DestructibleComponent>());
-                    Component.Destroy(gunBreach.GetComponent<GHPC.Equipment.DestructibleComponent>());
+                    Component.Destroy(gunBreech.GetComponent<GHPC.Equipment.DestructibleComponent>());
                     Component.Destroy(autoLoader1.GetComponent<GHPC.Equipment.DestructibleComponent>());
                     Component.Destroy(autoLoader2.GetComponent<GHPC.Equipment.DestructibleComponent>());
                     Component.Destroy(turretDrive1.GetComponent<GHPC.Equipment.DestructibleComponent>());
@@ -136,7 +136,7 @@ namespace IndestructibleComponents
 
                 GameObject gunBarrel = lftGun._lateFollowers[0].transform.Find("AAR/Gun_2A46M-1/").gameObject;
                 GameObject gunCoax = lftGun._lateFollowers[0].transform.Find("AAR/MG_Coax_PKT_7.62mm/").gameObject;
-                GameObject gunBreach = lftGun._lateFollowers[0].transform.Find("AAR/Gun_Breach_Gun_Breach_BitsThatRecoil/").gameObject;
+                GameObject gunBreech = lftGun._lateFollowers[0].transform.Find("AAR/Gun_Breech_Gun_Breech_BitsThatRecoil/").gameObject;
 
                 GameObject autoLoader1 = lftTurret._lateFollowers[0].transform.Find("AAR/Autoloader_6ETs10M/").gameObject;
                 GameObject autoLoader2 = lftTurret._lateFollowers[0].transform.Find("AAR/Carousel_ElectricDrive(Can be manually cranked if failed)/").gameObject;
@@ -170,7 +170,7 @@ namespace IndestructibleComponents
                 {
                     Component.Destroy(gunBarrel.GetComponent<GHPC.Equipment.DestructibleComponent>());
                     Component.Destroy(gunCoax.GetComponent<GHPC.Equipment.DestructibleComponent>());
-                    Component.Destroy(gunBreach.GetComponent<GHPC.Equipment.DestructibleComponent>());
+                    Component.Destroy(gunBreech.GetComponent<GHPC.Equipment.DestructibleComponent>());
                     Component.Destroy(autoLoader1.GetComponent<GHPC.Equipment.DestructibleComponent>());
                     Component.Destroy(autoLoader2.GetComponent<GHPC.Equipment.DestructibleComponent>());
                     Component.Destroy(turretDrive1.GetComponent<GHPC.Equipment.DestructibleComponent>());

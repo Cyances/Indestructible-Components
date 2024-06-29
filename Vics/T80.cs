@@ -56,7 +56,7 @@ namespace IndestructibleComponents
 
                 GameObject gunBarrel = lftGun._lateFollowers[1].transform.Find("Gun_2A46-2/").gameObject;
                 GameObject gunCoax = lftGun._lateFollowers[1].transform.Find("MG_Coax_PKT_7.62mm/").gameObject;
-                GameObject gunBreach = lftGun._lateFollowers[1].transform.Find("Gun_Breach_Gun_Breach_BitsThatRecoil/").gameObject;
+                GameObject gunBreech = lftGun._lateFollowers[1].transform.Find("Gun_Breach_Gun_Breach_BitsThatRecoil/").gameObject;
 
                 try
                 {
@@ -105,7 +105,7 @@ namespace IndestructibleComponents
                 {
                     Component.Destroy(gunBarrel.GetComponent<GHPC.Equipment.DestructibleComponent>());
                     Component.Destroy(gunCoax.GetComponent<GHPC.Equipment.DestructibleComponent>());
-                    Component.Destroy(gunBreach.GetComponent<GHPC.Equipment.DestructibleComponent>());
+                    Component.Destroy(gunBreech.GetComponent<GHPC.Equipment.DestructibleComponent>());
                     Component.Destroy(autoLoader1.GetComponent<GHPC.Equipment.DestructibleComponent>());
                     Component.Destroy(autoLoader2.GetComponent<GHPC.Equipment.DestructibleComponent>());
                     Component.Destroy(turretDrive1.GetComponent<GHPC.Equipment.DestructibleComponent>());
