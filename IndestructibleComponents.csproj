@@ -35,8 +35,9 @@
     <Reference Include="0Harmony">
       <HintPath>D:\Program Files\SteamLibrary\steamapps\common\Gunner HEAT PC\Bin\MelonLoader\net35\0Harmony.dll</HintPath>
     </Reference>
-    <Reference Include="Assembly-CSharp_publicized">
-      <HintPath>..\M1A1AbramsAMP\Assembly-CSharp_publicized.dll</HintPath>
+    <Reference Include="Assembly-CSharp_publicized, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\Assembly-CSharp_publicized.dll</HintPath>
     </Reference>
     <Reference Include="MelonLoader">
       <HintPath>D:\Program Files\SteamLibrary\steamapps\common\Gunner HEAT PC\Bin\MelonLoader\net35\MelonLoader.dll</HintPath>
