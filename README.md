@@ -1,13 +1,12 @@
 # Indestructible Components
 
 ## Features:
+Compatible with other mods
 Removes the damage system for the following components:
 - Tracks
 - Optics (primary/thermals/IR/NV)
 - Gun System (gun/breech/coax/turret drives)
 - Powertrain (engine/transmission/radiator)
-  
-- Compatible with other mods
 
 ## Supported Vehicles
 
